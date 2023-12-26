@@ -3,7 +3,7 @@
 
 def load_word_list():
     """Loads the words in dictionary into a list."""
-    file_path = "Chapter_2_codes/Palingram/word-list.txt"
+    file_path = "Impractical Python Projects/Chapter_2_codes/Palingram/word-list.txt"
     try:
         with open(file_path, "r", encoding="utf-8") as word_list_file:
             content = word_list_file.read().strip().split("\n")

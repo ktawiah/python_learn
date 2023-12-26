@@ -1,0 +1,28 @@
+import turtle
+
+t = turtle.Turtle()
+s = turtle.Screen()
+t.color("red")
+s.bgcolor("white")
+t.begin_fill()
+t.forward(100)
+t.left(270)
+t.forward(100)
+t.left(270)
+t.forward(100)
+t.left(270)
+t.forward(100)
+
+t.penup()
+t.forward(100)
+t.pendown()
+t.forward(100)
+t.left(270)
+t.forward(100)
+t.left(270)
+t.forward(100)
+t.left(270)
+t.forward(100)
+t.end_fill()
+
+turtle.done()

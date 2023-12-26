@@ -1,0 +1,1 @@
+So far, I have learned many stuff about python...from variable use to loops to dictionaries to classes.
